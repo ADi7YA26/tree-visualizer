@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">Tree visiualizer</div>
+        <div>
+            <input type="text" id="inputValues" placeholder="Enter values (comma-separated)">
+            <button class="button activeBtn" id="visualizeBT">Visualize Binary Tree</button>
+            <button class="button" id="visualizeBST">Visualize BST</button>
+            <button class="button" id="visualizeAVL">Visualize AVL Tree</button>
+            <button class="button" id="visualizeMaxHeap">Visualize Max Heap</button>
+            <button class="button" id="visualizeMinHeap">Visualize Min Heap</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h3 id="viewTree">BINARY TREE</h3>
+        <div id="inputArray"></div>
+    </div>
+
+    <!-- Include D3.js library -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script type="module" src="./js/scripts.js"></script>
+    <script src="state.js"></script>
+    <script src="./js/newNode.js"></script>
+</body>
+</html>

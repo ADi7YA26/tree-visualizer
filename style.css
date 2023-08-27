@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f6f9;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#header{
+    width: 100%;
+    background: #000;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+  color: white;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+header input, .button{
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+
+.node circle {
+  fill: #fff;
+  stroke: black;
+  stroke-width: 3px;
+}
+.node text { 
+  font: 16px sans-serif;
+  text-anchor: middle; /* Center-align text */
+  dominant-baseline: middle; /* Center-align text vertically */
+}
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+button.activeBtn, button:hover{
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: .5rem;
+}
+.container h2{
+  border: 1px solid black;
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+}
+#inputArray{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: .5rem;
+}
+#inputArray div{
+  border: 1px solid black;
+  font-size: 1rem;
+  padding: .5rem;
+}
